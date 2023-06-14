@@ -7,9 +7,17 @@ public class MultiplicationTable {
 			System.out.printf("%d * %d = %d", table, i, table * i).println();
 		}
 	}
+	
+	//Method overloading
+	void printMultiplicationTable() {
+		for (int i = 1; i <= 10; i++) {
+			System.out.printf("%d * %d = %d", 5, i, 5 * i).println();
+		}
+	}
+	
 	public static void main(String[] args) {
 		MultiplicationTable table = new MultiplicationTable();
-		table.printMultiplicationTable(1);
+		table.printMultiplicationTable();
 	}
 
 }
