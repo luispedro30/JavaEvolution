@@ -1,5 +1,11 @@
 package org.example;
 
 public class Book {
-    String name = "Livro";
+    private int noOfCopies;
+    public void setNoOfCopies(int noOfCopies){
+        this.noOfCopies = noOfCopies;
+    }
+    int getNoOfCopies(){
+        return this.noOfCopies;
+    }
 }
