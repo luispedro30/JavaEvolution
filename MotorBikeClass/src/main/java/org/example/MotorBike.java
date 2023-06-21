@@ -4,6 +4,9 @@ public class MotorBike {
     //state
     private int speed;
 
+    MotorBike(){
+        this.speed = 50;
+    }
     MotorBike(int speed){
         this.speed = speed;
     }
@@ -11,7 +14,7 @@ public class MotorBike {
     //behaviour
 
     int getSpeed(){
-        //System.out.println(speed);
+        //System.out.println(spe(ed);
         return speed;
     }
 
