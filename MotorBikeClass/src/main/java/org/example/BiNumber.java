@@ -21,8 +21,8 @@ public class BiNumber {
     }
 
     public void Double(){
-        this.number1 = this.number1 * 2;
-        this.number2 = this.number2 * 2;
+        this.number1 *= 2;
+        this.number2 *= 2;
     }
 
     public int getNumber1(){
