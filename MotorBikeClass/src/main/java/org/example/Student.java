@@ -58,5 +58,13 @@ public class Student {
         return mean;
     };
 
+    public void addNewMark(int mark){
+        this.marks.add(mark);
+    }
+
+    public void removeMarkAtIndex(int index){
+        this.marks.remove(index);
+    }
+
 
 }
